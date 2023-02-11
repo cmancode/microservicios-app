@@ -1,12 +1,16 @@
 package com.curso.microservicios.producto.app.models.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.hibernate.id.IdentifierGenerator;
 
 import java.io.Serializable;
 import java.util.Date;
 
+@NoArgsConstructor
+@AllArgsConstructor
 @Data
 @Entity
 @Table(name = "products")
